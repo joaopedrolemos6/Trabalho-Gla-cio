@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluguel Lanchas </title>
+</head>
+<style>
+    body,
+    h1,
+    h4,
+    p,
+    ul,
+    li {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .logo {
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .links {
+        list-style: none;
+        display: flex;
+    }
+
+    .links li {
+        margin-right: 20px;
+    }
+
+    .links li:last-child {
+        margin-right: 0;
+    }
+
+    .links a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .active {
+        border-bottom: 2px solid #fff;
+    }
+
+    .menu-principal .botao {
+        background-color: white;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .principal {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        background-color: #f4f4f4;
+    }
+
+    .texto-principal {
+        flex: 1;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .texto {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .box {
+        flex: 1;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+
+    .box:last-child {
+        margin-right: 0;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        font-size: 16px;
+        color: #00c853;
+        margin-bottom: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img-principal {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .img-principal img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .bx-menu {
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+        .principal {
+            flex-direction: column;
+        }
+
+        .img-principal {
+            margin-top: 20px;
+        }
+    }
+</style>
+
+<body>
+
+
+
+    <header>
+        <a href="#" class="logo">Aluguel lanchas</a>
+
+        <ul class="Links">
+            <li><a href="#" class="active">Pagina Inicial</a></li>
+            <li><a href="#">Aluguel de Iates</a></li>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Tripulação</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <div class="Menu principal">
+            <a href="#" class="botao">Alugue Agora</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    <section class="principal">
+        <div class="Texto-principal">
+            <h1>Lanchas</h1>
+            <h4>O melhor alguel de lanchas e barcos da cidade</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Atque laboriosam soluta quidem magnam
+            </p>
+            <div class="texto">
+                <div class="box">
+                    <h3>Barco</h3>
+                    <h5>Disponível</h5>
+                    <img
+                        src="C:\Users\lemin\Desktop\Projeto-AluguelIates\Projeto-AluguelIates\imagens\barconossafrota1.jpg">
+                </div>
+
+                <div class="box">
+                    <h3>Barco</h3>
+                    <h5>Disponível</h5>
+                    <img
+                        src="C:\Users\lemin\Desktop\Projeto-AluguelIates\Projeto-AluguelIates\imagens\barconossafrota2.jpg">
+                </div>
+
+                <div class="box">
+                    <h3>Passeio</h3>
+                    <h5>Disponível</h5>
+                    <img
+                        src="C:\Users\lemin\Desktop\Projeto-AluguelIates\Projeto-AluguelIates\imagens\barcodestino.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="img-principal">
+            <img src="C:\Users\lemin\Desktop\Projeto-AluguelIates\Projeto-AluguelIates\imagens\barcoprincipal.jpg">
+        </div>>
+    </section>
+</body>
+
+</html>
